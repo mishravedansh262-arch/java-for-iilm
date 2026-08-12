@@ -50,7 +50,7 @@ public class VariableScopeDemonstrator {
         System.out.println("---------------------------------------------------------------");
 
         // Scenario 2: Test with a brand new object instance
-        System.out.println("[Testing Object B - Call 1 to 2]");
+        System.out.println("[Testing Object B - Cagll 1 to 2]");
         VariableScopeDemonstrator objectB = new VariableScopeDemonstrator();
         objectB.demonstrateVariables("Obj_B");
         objectB.demonstrateVariables("Obj_B");
