@@ -1,14 +1,6 @@
-/**
- * Variable Scope and Lifetime Demonstrator
- *
- * This program demonstrates how different types of Java variables behave
- * across multiple consecutive method calls and across multiple object instances.
- */
 public class VariableScopeDemonstrator {
 
-    // 1. Static (Class) Variable
-    // Allocated once per class in the Method Area.
-    // Outlives all individual objects and lasts for the entire program runtime.
+    
     private static int staticCounter = 0;
 
     // 2. Instance (Object) Variable
